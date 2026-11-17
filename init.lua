@@ -10,9 +10,13 @@ apps.bindApps(key.hyper, {
 	B = "Firefox",
 	A = "Claude",
 	D = "Discord",
-	S = "Spotify",
+	S = "Music",
 	T = "Messages",
 	Return = "Ghostty",
 	["1"] = "1Password",
 	[","] = "System Settings",
+})
+
+apps.bindApps(key.hyperShift, {
+	Return = "Herdr",
 })
